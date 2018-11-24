@@ -1,0 +1,45 @@
+a { 
+    color: inherit;
+    text-decoration: underline; 
+}
+
+body {
+    background-image: url("../images/houndstooth-pattern.png");
+    font-family: 'Abel', sans-serif;
+    font-size: 19px;
+}
+
+h1 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    line-height: .5;
+}
+
+h5 {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    line-height: .5;
+    font-weight: bold;
+}
+
+.bio-pic {
+    border: 1px gray solid;
+}
+
+.contact {
+    line-height:.3;
+    font-size: 17px;
+}
+
+.white-box {
+    width: 960px;
+    background-color: white;
+}
+
+
+
