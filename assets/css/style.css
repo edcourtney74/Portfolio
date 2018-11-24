@@ -36,6 +36,10 @@ h5 {
     font-size: 17px;
 }
 
+.education {
+    line-height: 1;
+}
+
 .white-box {
     width: 960px;
     background-color: white;
