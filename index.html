@@ -24,11 +24,11 @@
         <div class="container">
             <div class="row">
                 <!-- Bio picture -->
-                <div class="col-md-2 mt-5 ml-3">
+                <div class="col-sm-3 col-md-2 mt-5 ml-3 bio-mobile">
                     <img src="assets/images/profile.jpg" class="bio-pic">
                 </div>
                 <!-- Short bio -->
-                <div class="col-md-9 mt-5 ml-3 mr-3">
+                <div class="col-sm-7 col-md-9 mt-5 mx-3 px-0" id="bio-short">
                     <h1>Ed Courtney</h1>
                     <h3>Web Developer</h3>
                     <div class="mt-4">I'm beginning a new career in web development after twenty-plus years of
@@ -43,19 +43,19 @@
 
                     <!-- Contact info  -->
                     <div class="row mt-3 no-gutters">
-                        <div class="col-md-3 contact pt-3">
+                        <div class="col-5 col-sm-6 col-md-3 contact pt-3">
                             <p><i class="fab fa-github"></i>&nbspGitHub</p>
                             <a href="https://github.com/edcourtney74" target="_blank">
                                 <p mt="0">edcourtney74</p>
                             </a>
                         </div>
-                        <div class="col-md-3 contact pt-3">
+                        <div class="col-5 col-sm-6 col-md-3 contact pt-3">
                             <p><i class="fab fa-linkedin"></i>&nbspLinkedIn</p>
                             <a href="https://www.linkedin.com/in/edcourtney/" target="_blank">
                                 <p mt="0">edcourtney</p>
                             </a>
                         </div>
-                        <div class="col-md-3 contact pt-3">
+                        <div class="col-6 col-md-3 contact pt-3">
                             <p><i class="far fa-envelope"></i>&nbspEmail</p>
                             <a href="mailto:edcourtney74@gmail.com">
                                 <p mt="0">edcourtney74@gmail.com</p>
@@ -63,39 +63,39 @@
                         </div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-md-3 contact pt-3">
+                        <div class="col-6 col-md-3 contact pt-3">
                             <p><i class="fas fa-globe"></i>&nbspLocation</p>
                             <p mt="0">Orlando, FL</p>
                         </div>
-                        <div class="col-md-3 contact pt-3">
+                        <div class="col-6 col-md-3 contact pt-3">
                             <p><i class="fas fa-phone"></i>&nbspPhone</p>
                             <p mt="0">573-442-5354</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr>
+            <hr class="mx-3" id="hr-mobile">
             <!-- Portfolio section -->
             <div class="row">
-                <div class="col-md-2 ml-3 my-3">
+                <div class="col-md-2 ml-3 mt-3" id="header">
                     <h1>Portfolio</h1>
                 </div>
                 <!-- Projects-->
-                <div class="col-md-9 ml-3 my-3">
+                <div class="col-sm-11 col-md-9 ml-3 mb-3 pr-0" id="projects">
                     <div class="card-deck">
                     <!-- Project 1 -->
-                        <div class="card ml-0">
+                        <div class="card ml-0 mt-4">
                             <a href="https://edcourtney74.github.io/Gifty/" target="_blank">
                             <img class="card-img-top" src="assets/images/gifty.png" alt="Gifty">
                             <div class="card-body">
                                 <h5 class="card-title">Gifty</h5>
                             </a>
-                                <p class="card-text">Gifty helps you find original gift ideas and makes online shopping more enjoyable.</p>
+                                <p class="card-text">Gifty helps you find original gift ideas and makes online shopping a more enjoyable experience.</p>
                                 <a href="https://github.com/edcourtney74/Gifty"><p>GitHub repository</p></a>
                             </div>
                         </div>  
                         <!-- Project 2 -->
-                        <div class="card mr-0">
+                        <div class="card mr-0 pr-0 mt-4">
                             <a href="https://edcourtney74.github.io/Pop-Trivia/" target="_blank">
                             <img class="card-img-top" src="assets/images/trivia.png" alt="Pop Trivia">
                             <div class="card-body">
@@ -136,26 +136,27 @@
                     </div>
                </div>
            </div>
-        <hr>
-            <!-- Education section -->
+        <hr class="mx-3" id="hr-mobile">
+           <!-- Education section -->
             <div class="row">
-                <div class="col-md-2 ml-3 mt-3">
+                <div class="col-md-3 col-xl-2 ml-3 mt-3" id="header">
                     <h1>Education</h1>
                 </div>
-                <div class="col-md-5 mt-3">
-                    <h5>Full-Stack Coding Boot Camp</h5>
-                    <p>University of Central Florida</p>
-                </div>
-                <div class="col-md-4 mt-3 ml-0 pl-0">
-                    <h5>Bachelor of Journalism</h5>
-                    <p>University of Missouri</p>
+                <div class="col-md-7 ml-3">
+                    <div class="row">
+                        <div class="col-md-10 mt-3 ml-0 pl-0">
+                            <h5>Full-Stack Coding Boot Camp</h5>
+                            <p>University of Central Florida</p>
+                        </div>
+                        <div class="col-md-10 mt-3 ml-0 pl-0">
+                            <h5>Bachelor of Journalism</h5>
+                            <p>University of Missouri</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
 
     <!-- Javascript links -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -167,5 +168,4 @@
     <script src="assets/javascript/app.js"></script>
 
 </body>
-
 </html>
