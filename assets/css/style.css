@@ -60,6 +60,15 @@ h5 {
         margin-right: 0px!important;    
     }
 
+    #degree {
+        font-size: 17px;
+    }
+
+    #school {
+        font-size: 15px;
+    }
+
+
 @media screen and (max-width: 576px) {
     .bio-mobile {
         padding: 0px;
@@ -79,10 +88,6 @@ h5 {
     #bio-short {
         margin-top: 15px!important;
     }   
-    
-    #education {
-        font-size: 14px;
-    }
 
     #projects {
         margin-left: 0px!important;
