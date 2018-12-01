@@ -40,6 +40,10 @@ h5 {
     line-height: 1;
 }
 
+.resume {
+    text-decoration: none; 
+}
+
 .white-box {
     width: 960px;
     background-color: white;
