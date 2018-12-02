@@ -4,9 +4,10 @@ a {
 }
 
 body {
-    background-image: url("../images/houndstooth-pattern.png");
+    background-image: url("../images/background.png");
     font-family: 'Abel', sans-serif;
     font-size: 19px;
+    background-size: cover;
 }
 
 h1 {
