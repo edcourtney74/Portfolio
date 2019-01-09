@@ -1,4 +1,4 @@
 # Portfolio
 Portfolio of my recent projects
 
-edcourtney74.github.com/Portfolio
+https://edcourtney74.github.io/Portfolio/
